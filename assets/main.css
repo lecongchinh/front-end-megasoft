@@ -1,0 +1,217 @@
+body {
+	background-color: rgb(239, 239, 239);
+}
+
+.header .col-md-4 {
+}
+
+.header {
+	background-color: rgb(0, 0, 0);
+}
+
+.header .logo {
+	margin-top: 12px;
+}
+.header .form_search{
+	padding: 23px 0 0 0;	
+	position: relative;
+}
+.header .form_search .col-md-10 {
+	padding: 0;	
+}
+.header .form_search .input-group-append {
+	background-color: rgb(255, 255, 255);
+	border-radius: 4px;
+}
+
+.header .hotline {
+	background-color: rgb(254, 215, 0);;
+	/*margin: 15px 0 0 0;*/
+	margin-top: 15px;
+	border-radius: 4px;
+}
+
+.header .hotline ._icon {
+	padding: 7px 0 0 10px;
+}
+
+.header .hotline .content {
+	padding: 0;
+}
+
+.header .hotline p {
+	margin: 0;
+}
+
+.header .hotline span {
+	font-size: 13px;
+}
+
+.header .cart {
+	background-color: rgb(254, 215, 0);;
+	/*margin: 15px 0 0 0;*/
+	margin-top: 15px;
+	border-radius: 4px;
+}
+.header .cart span {
+	font-size: 13px;
+}
+.header .cart .content {
+	padding: 10px 0 0 0;
+}
+
+.header .cart ._icon {
+	padding: 7px 0 3px 10px;
+}
+
+.header .header-right .col-md-3 {
+	padding: 0;
+}
+.header .header-right .reg_log {
+	margin-left: -30px;
+}
+.header .reg_log button {
+	background-color: rgb(0, 0, 0);
+	color: white;
+	border: none;
+	margin: 25px 0px;
+}
+
+.menu .navbar {
+	background-color: rgb(251, 220, 48) !important;
+	padding: 0;
+	border: none;
+}
+.menu {
+	background-color: rgb(251, 220, 48)
+}
+/*.menu .navbar {
+	padding: 0;
+	border: none;
+}*/
+.menu a b {
+	color: rgb(0, 0, 0);
+	margin-left: 15px;
+}
+.menu .nav-item .nav-link {
+	padding: 15px 10px 15px 20px;
+}
+.menu a i {
+	color: rgb(0, 0, 0);
+}
+
+.menu .active {
+	background-color: rgb(255, 255, 255);
+}
+
+.header_slide img {
+	width: 100%;
+}
+.header_slide {
+	margin-top: 15px;
+}
+.header_slide .qc2 {
+	margin-top: 15px;
+}
+.ma_giam_gia img {
+	width: 100%;
+	margin: 15px 0 0 0;
+}
+
+
+
+.content ._title {
+	padding: 0px;
+	margin: 15px 0 0 0;
+	background-color: rgb(255, 255, 255);
+
+}
+
+.content ._title ul {
+	padding: 0px;
+	margin: 0px;
+}
+
+.content ._title ul ._active {
+	border-bottom: 3px rgb(254, 215, 0) solid;
+}
+
+.content ._title ul li {
+	display: inline-block;
+	padding: 10px 20px;
+}
+
+.content .km_hot_nhat ._title ul li {
+	display: inline-block;
+	padding: 0;
+}
+
+.content ._title .xem_tat_ca {
+	padding: 10px  30px 0 0;
+}
+
+.content ._title .xem_tat_ca b {
+	color: black;
+}
+
+.content ._content {
+	margin-top: 5px;
+	background-color: rgb(255, 255, 255);
+}
+
+.content ._content .san_pham {
+	/*width: 19%;*/
+	display: inline-block;
+	padding: 15px;
+}
+.content ._content .san_pham .thong_tin {
+	margin-top: 30px;
+}
+.content  ._content .san_pham .thong_tin .price {
+	color: red;
+}
+.content ._content .san_pham .price_old {
+	text-decoration: line-through;
+}
+.content ._content .san_pham img {
+	width: 100%;
+}
+
+/*=========================footer========================*/
+.footer .footer_top {
+	background-color: rgb(255, 255, 255);
+	margin-top: 15px;
+}
+.footer .footer_top img {
+	margin-top: 15px;
+}
+.footer .footer_top .col-md-2 {
+	text-align: center;
+}
+.footer .footer_top .col-md-10 {
+	margin: 13px 0;
+	padding-left: 30px;
+}
+.footer .footer_center {
+	background-color: rgb(255, 255, 255);
+	margin-top: 15px;
+}
+.footer .footer_center ._title{
+	border-bottom: 2px rgb(254, 215, 0) solid;
+	text-align: center;
+	margin: 40px 0 10px 0;
+	padding-bottom: 10px;
+}
+.footer .footer_center .content {
+	margin-left: 30px;
+}
+.footer .footer_bot {
+	background-color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
+	margin-top: 15px;
+	border-top: 1px rgb(254, 215, 0) solid;
+}
+
+.footer .footer_bot .content {
+	padding: 15px 0 5px 0;
+}
