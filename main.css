@@ -6,15 +6,16 @@ body {
 }
 
 .header {
+	height: 80px;
 	background-color: rgb(0, 0, 0);
 }
 
 .header .logo {
-	margin-top: 12px;
+	margin-top: 0px;
 }
 .header .form_search{
-	padding: 23px 0 0 0;	
 	position: relative;
+	margin-top: 20px;
 }
 .header .form_search .col-md-10 {
 	padding: 0;	
@@ -27,12 +28,13 @@ body {
 .header .hotline {
 	background-color: rgb(254, 215, 0);;
 	/*margin: 15px 0 0 0;*/
-	margin-top: 15px;
+	margin-top: 20px;
 	border-radius: 4px;
+	height: 40px;
 }
 
 .header .hotline ._icon {
-	padding: 7px 0 0 10px;
+	padding: 5px 0 0 10px;
 }
 
 .header .hotline .content {
@@ -50,18 +52,19 @@ body {
 .header .cart {
 	background-color: rgb(254, 215, 0);;
 	/*margin: 15px 0 0 0;*/
-	margin-top: 15px;
+	margin-top: 20px;
 	border-radius: 4px;
+	height: 40px;
 }
 .header .cart span {
 	font-size: 13px;
 }
 .header .cart .content {
-	padding: 10px 0 0 0;
+	padding: 8px 0 0 0;
 }
 
 .header .cart ._icon {
-	padding: 7px 0 3px 10px;
+	padding: 5px 0 3px 10px;
 }
 
 .header .header-right .col-md-3 {
@@ -69,6 +72,9 @@ body {
 }
 .header .header-right .reg_log {
 	margin-left: -30px;
+}
+.header .header-right .reg_log .content{
+	padding: 0px;
 }
 .header .reg_log button {
 	background-color: rgb(0, 0, 0);
@@ -91,7 +97,7 @@ body {
 }*/
 .menu a b {
 	color: rgb(0, 0, 0);
-	margin-left: 15px;
+	margin-left: 10px;
 }
 .menu .nav-item .nav-link {
 	padding: 15px 10px 15px 20px;
@@ -108,7 +114,7 @@ body {
 	width: 100%;
 }
 .header_slide {
-	margin-top: 15px;
+	margin-top: 20px;
 }
 .header_slide .qc2 {
 	margin-top: 15px;
@@ -165,7 +171,7 @@ body {
 	padding: 15px;
 }
 .content ._content .san_pham .thong_tin {
-	margin-top: 30px;
+	margin-top: 40px;
 }
 .content  ._content .san_pham .thong_tin .price {
 	color: red;
@@ -180,7 +186,7 @@ body {
 /*=========================footer========================*/
 .footer .footer_top {
 	background-color: rgb(255, 255, 255);
-	margin-top: 15px;
+	margin-top: 20px;
 }
 .footer .footer_top img {
 	margin-top: 15px;
@@ -194,7 +200,7 @@ body {
 }
 .footer .footer_center {
 	background-color: rgb(255, 255, 255);
-	margin-top: 15px;
+	margin-top: 20px;
 }
 .footer .footer_center ._title{
 	border-bottom: 2px rgb(254, 215, 0) solid;
@@ -210,6 +216,7 @@ body {
 	color: rgb(255, 255, 255);
 	margin-top: 15px;
 	border-top: 1px rgb(254, 215, 0) solid;
+	/*height: 200px;*/
 }
 
 .footer .footer_bot .content {
