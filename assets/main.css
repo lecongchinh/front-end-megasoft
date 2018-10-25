@@ -1,11 +1,11 @@
 
 @font-face{
-    font-family: "Myriad-Pro";  
-    src: url(http://www.anaveer.in/honda/font/MYRIADPRO-REGULAR.OTF) format("truetype");
+    font-family: MyriadPro;  
+    src: url(fonts/MyriadPro-Regular.otf);
 }
 body {
 	background-color: rgb(239, 239, 239);
-	font-family: Myriad Pro;
+	font-family: MyriadPro;
 }
 
 .header .col-md-4 {
@@ -271,6 +271,238 @@ body {
 .content .tin_km_detail .content_km_detail {
 	margin-top: 40px;
 }
+.content .content_cart {
+	background-color: rgb(255, 255, 255);
+	margin-top: 20px;
+}
+.content .content_cart .sp ._image {
+	text-align: center;
+}
+.content .content_cart .sp .the_tich {
+	height: 100%;
+}
+.content .content_cart .sp ._image img {
+	padding: 5px 10px 10px 10px;
+}
+.content .content_cart .so_luong button {
+	width: 30px;
+	background-color: rgb(255, 255, 255);
+	border: none;
+}
+.content .content_cart .so_luong input {
+	width: 50px;
+	border-top: none;
+	border-bottom: none;
+	border-left: 1px  solid;
+	border-right: 1px solid;
+}
+.content .content_cart .so_luong {
+	border: 1px solid;
+	padding: 0px;
+	width: 120px;
+
+}
+.content .content_cart .the_tich select {
+	width: 100%;
+	height: 100%;
+	padding-top: 5px;
+}
+.content .content_cart ._back {
+	padding: 5px 0;
+}
+.content .content_cart .sp {
+	padding: 10px 0;
+	border-top: 1px solid rgb(239, 239, 239);
+}
+
+.content .content_cart .sp .price_sale {
+	color: red;
+	font-size: 24.1pt;
+}
+.content .content_cart .sp .price_old {
+	text-decoration: line-through;
+	font-size: 18.08pt;
+}
+
+.content .content_cart .sp ._luong {
+	margin-top: 36px;
+}
+
+.content .content_cart .gio_hang .text-center {
+	margin: 5px 0;
+}
+.content .content_cart .gio_hang .text-center p {
+	margin: 0;
+}
+
+.content .content_cart .tong {
+	margin-top: 30px;
+	padding-top: 30px;
+	border-top: 1px solid rgb(239, 239, 239);
+}
+.content .content_cart .tong .float-right {
+	color: red;
+	font-size: 18.08pt
+}
+.content .content_cart .ap_dung {
+	padding: 0 15px;
+}
+
+.content .content_cart .ap_dung a {
+	margin-top: 15px;
+}
+
+.content .content_cart .nhap {
+	margin-top: 15px;
+}
+
+.content .content_cart .nhap span {
+	background-color: rgb(251, 220, 48);
+	padding: 10px;
+	border-radius: 6px;
+}
+.content .content_cart .nhap input {
+	border-radius: 6px;
+}
+.content .content_cart .thanh_toan {
+	margin-top: 15px;
+}
+.content .content_cart .thanh_toan .text-center {
+	background-color: rgb(251, 220, 48);
+	border-radius: 6px;
+}
+.content .content_cart .thanh_toan i {
+	padding: 10px;
+}
+.content .content_cart .hoa_don {
+	border: 1px solid rgb(239, 239, 239);
+	padding: 15px;
+	margin-right: 15px;
+}
+
+/*thanh_toan_b1*/
+
+.content .content_thanh_toan_b1 {
+	background-color: rgb(255, 255, 255);
+	margin-top: 20px;
+	padding-left: 15px;
+}
+
+.content .content_thanh_toan_b1 .infor_buyer ._infor{
+	border: 1px solid rgb(239, 239, 239);
+	border-radius: 1px;
+	padding: 25px 20px;
+}
+
+.content .content_thanh_toan_b1 .infor_buyer{
+	margin-top: 15px
+}
+
+.content .content_thanh_toan_b1 .infor_buyer ._infor input{
+	border-radius: 4px;
+	padding: 5px;
+}
+
+.content .content_thanh_toan_b1 .infor_buyer ._infor .sex .nu{
+	padding-left: 30px;
+}
+
+.content .content_thanh_toan_b1 .address_receive{
+	margin-top: 15px
+}
+
+.content .content_thanh_toan_b1 .address_receive ._infor{
+	border: 1px solid rgb(239, 239, 239);
+	border-radius: 1px;
+	padding: 25px 20px;
+}
+
+.content .content_thanh_toan_b1 .address_receive ._infor .thanh_phan .col-md-3 p{
+	padding-top: 10px;
+}
+.content .content_thanh_toan_b1 .address_receive ._infor  .thanh_phan select {
+	border: 2px solid;
+	border-radius: 5px;
+	padding: 10px;
+	width: 100%;
+}
+.content .content_thanh_toan_b1 .address_receive ._infor  .save_infor p{
+	display: inline-block;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	padding-left: 10px;
+}
+.content .content_thanh_toan_b1 .address_receive ._infor  .save_infor i{
+	background-color: rgb(251, 220, 48);
+	padding: 7px;
+}
+
+
+.content .content_thanh_toan_b1 .address_receive ._infor  .thanh_phan input {
+	border: 2px solid;
+	border-radius: 5px;
+	padding: 10px;
+	width: 100%;
+}
+
+.content .content_thanh_toan_b1 .address_receive ._infor .thanh_phan {
+	padding-top: 15px;
+}
+
+.content .content_thanh_toan_b1 .time_expected{
+	margin-top: 15px
+}
+
+.content .content_thanh_toan_b1 .time_expected ._infor{
+	border: 1px solid rgb(239, 239, 239);
+	border-radius: 1px;
+	padding: 25px 20px;
+	margin-bottom: 40px;
+}
+
+.content .content_thanh_toan_b1 .time_expected ._infor p{
+	margin: 0;
+	padding-top: 10px
+}
+.content .content_thanh_toan_b1 .time_expected ._infor .phi_tieu_chuan{
+	border-top: 1px solid rgb(239, 239, 239);
+}
+
+.content .content_thanh_toan_b1 .gio_hang .text-center {
+	margin: 5px 0;
+}
+.content .content_thanh_toan_b1 .gio_hang .text-center p {
+	margin: 0;
+}
+
+.content .content_thanh_toan_b1 .tong {
+	margin-top: 30px;
+	padding-top: 30px;
+	border-top: 1px solid rgb(239, 239, 239);
+}
+.content .content_thanh_toan_b1 .tong .float-right {
+	color: red;
+	font-size: 18.08pt
+}
+
+.content .content_thanh_toan_b1 .thanh_toan {
+	margin-top: 15px;
+}
+.content .content_thanh_toan_b1 .thanh_toan .text-center {
+	background-color: rgb(251, 220, 48);
+	border-radius: 6px;
+}
+.content .content_thanh_toan_b1 .thanh_toan i {
+	padding: 10px;
+}
+.content .content_thanh_toan_b1 .hoa_don {
+	border: 1px solid rgb(239, 239, 239);
+	padding: 15px;
+	margin-right: 15px;
+}
+
+
+
 /*=========================footer========================*/
 .footer .footer_top {
 	background-color: rgb(255, 255, 255);
