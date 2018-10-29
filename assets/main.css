@@ -95,6 +95,24 @@ body {
 	margin-right: 15px;
 	margin-left: -30px
 }
+.header .user #dropdownMenu2 {
+	border: none;
+	background-color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
+	margin-top: 25px;
+}
+.header .user {
+	margin-left: -10px;
+}
+.header .user .dropdown-menu {
+	background-color: rgb(183, 183, 183);
+}
+.header .user #dropdownMenu2:hover {
+	color: rgb(251, 220, 48);
+}
+.header .user img { 
+	width: 30px;
+}
 
 .menu .navbar {
 	background-color: rgb(251, 220, 48) !important;
@@ -164,9 +182,6 @@ body {
 	display: inline-block;
 	padding: 0;
 }
-/*.content .km_hot_nhat img {
-	width: 100%;
-}*/
 
 .content ._title .xem_tat_ca {
 	padding: 10px  30px 0 0;
@@ -495,12 +510,435 @@ body {
 .content .content_thanh_toan_b1 .thanh_toan i {
 	padding: 10px;
 }
+
+
 .content .content_thanh_toan_b1 .hoa_don {
 	border: 1px solid rgb(239, 239, 239);
 	padding: 15px;
 	margin-right: 15px;
 }
 
+/*thanh toan b2*/
+
+.content .content_thanh_toan_b2 {
+	background-color: rgb(255, 255, 255);
+	margin-top: 20px;
+	padding-left: 15px;
+}
+
+.content .content_thanh_toan_b2 .gio_hang .text-center {
+	margin: 5px 0;
+}
+.content .content_thanh_toan_b2 .gio_hang .text-center p {
+	margin: 0;
+}
+
+.content .content_thanh_toan_b2 .tong {
+	margin-top: 30px;
+	padding-top: 30px;
+	border-top: 1px solid rgb(239, 239, 239);
+}
+.content .content_thanh_toan_b2 .tong .float-right {
+	color: red;
+	font-size: 18.08pt
+}
+
+.content .content_thanh_toan_b2 .thanh_toan {
+	margin-right: 15px;
+	margin-top: 15px;
+	padding-left: 15px;
+	border: 1px solid rgb(239, 239, 239);
+	margin-bottom: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.content .content_thanh_toan_b2 .thanh_toan button {
+	background-color: rgb(251, 220, 48);
+	border-radius: 6px;
+	width: 100%;
+	border: none;
+	padding: 5px;
+}
+.content .content_thanh_toan_b2 .gio_hang .thanh_toan i{
+	background-color: rgb(251, 220, 48);
+	padding: 7px;
+}
+.content .content_thanh_toan_b2 .thanh_toan .accept p{
+	display: inline;
+	margin-left: 5px;
+}
+.content .content_thanh_toan_b2 .phuong_thuc_tt ._method .col-md-1 {
+	text-align: center;
+	padding-top: 10px;
+}
+
+.content .content_thanh_toan_b2 .phuong_thuc_tt ._method {
+	border: 1px solid rgb(239, 239, 239);
+	padding-top: 10px;
+}
+.content .content_thanh_toan_b2 .phuong_thuc_tt ._method ._content_after {
+	border-top: 1px solid rgb(239, 239, 239);
+	padding-top: 10px;
+	margin: 0 15px;
+}
+
+.content .content_thanh_toan_b2 .phuong_thuc_tt ._method ._content {
+	margin: 0 15px;
+}
+
+
+
+.content .content_thanh_toan_b2 .hoa_don {
+	border: 1px solid rgb(239, 239, 239);
+	padding: 15px;
+	margin-right: 15px;
+}
+
+/*Thanh toán*/
+.content .content_thanh_toan {
+	background-color: rgb(255, 255, 255);
+	margin-top: 20px;
+	padding-left: 15px;
+}
+.content .content_thanh_toan .infor_buyer ._infor{
+	border: 1px solid rgb(239, 239, 239);
+	border-radius: 1px;
+	padding: 25px 20px;
+}
+
+.content .content_thanh_toan .infor_buyer{
+	margin-top: 15px
+}
+
+.content .content_thanh_toan .infor_buyer ._infor input{
+	border-radius: 4px;
+	padding: 5px;
+}
+
+.content .content_thanh_toan .infor_buyer ._infor .sex .nu{
+	padding-left: 30px;
+}
+
+.content .content_thanh_toan .address_receive{
+	margin-top: 15px
+}
+
+.content .content_thanh_toan .address_receive ._infor{
+	border: 1px solid rgb(239, 239, 239);
+	border-radius: 1px;
+	padding: 25px 20px;
+}
+
+.content .content_thanh_toan .address_receive ._infor .thanh_phan .col-md-3 p{
+	padding-top: 10px;
+}
+.content .content_thanh_toan .address_receive ._infor  .thanh_phan select {
+	border: 2px solid;
+	border-radius: 5px;
+	padding: 10px;
+	width: 100%;
+}
+.content .content_thanh_toan .address_receive ._infor  .save_infor p{
+	display: inline-block;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	padding-left: 10px;
+}
+.content .content_thanh_toan .address_receive ._infor  .save_infor i{
+	background-color: rgb(251, 220, 48);
+	padding: 7px;
+}
+
+
+.content .content_thanh_toan .address_receive ._infor  .thanh_phan input {
+	border: 2px solid;
+	border-radius: 5px;
+	padding: 10px;
+	width: 100%;
+}
+
+.content .content_thanh_toan .address_receive ._infor .thanh_phan {
+	padding-top: 15px;
+}
+
+.content .content_thanh_toan .gio_hang .text-center {
+	margin: 5px 0;
+}
+.content .content_thanh_toan .gio_hang .text-center p {
+	margin: 0;
+}
+
+.content .content_thanh_toan .hoa_don {
+	border: 1px solid rgb(239, 239, 239);
+	padding: 15px;
+	margin-right: 15px;
+}
+
+.content .content_thanh_toan .dat_hang {
+	margin-right: 15px;
+	margin-top: 15px;
+	padding-left: 15px;
+	border: 1px solid rgb(239, 239, 239);
+	margin-bottom: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.content .content_thanh_toan .dat_hang button {
+	background-color: rgb(251, 220, 48);
+	border-radius: 6px;
+	width: 100%;
+	border: none;
+	padding: 5px;
+}
+.content .content_thanh_toan .gio_hang .dat_hang i{
+	background-color: rgb(251, 220, 48);
+	padding: 7px;
+}
+.content .content_thanh_toan .dat_hang .accept p{
+	display: inline;
+	margin-left: 5px;
+}
+
+.content .content_thanh_toan .phuong_thuc_tt ._method .col-md-2 {
+	text-align: center;
+	padding-top: 10px;
+}
+
+.content .content_thanh_toan .phuong_thuc_tt ._method {
+	border: 1px solid rgb(239, 239, 239);
+	padding-top: 10px;
+	margin-top: 20px;
+	margin-right: 15px;
+}
+.content .content_thanh_toan .phuong_thuc_tt ._method h3 {
+	padding-left: 15px;
+}
+.content .content_thanh_toan .phuong_thuc_tt ._method ._content_after {
+	border-top: 1px solid rgb(239, 239, 239);
+	padding-top: 10px;
+	margin: 0 15px;
+}
+
+.content .content_thanh_toan .phuong_thuc_tt ._method ._content {
+	margin: 0 15px;
+}
+
+/*đăng kí*/
+.content .content_register {
+	background-color: rgb(255, 255, 255);
+}
+.content .content_register ._content {
+	margin: 20px 0 100px 0;
+	padding: 15px;
+	background-color: rgb(239, 239, 239);
+	border-radius: 5px;
+
+}
+.content .content_register ._content ._logo img{
+	width: auto;
+}
+.content .content_register ._content ._logo ._title {
+	margin-top: 15px;
+	background-color: rgb(239, 239, 239);
+}
+.content .content_register .notify {
+	margin-top: 10px;
+}
+.content .content_register .notify span {
+	color: rgb(0, 90, 254);
+}
+
+.content .content_register ._form {
+	margin-top: 15px;
+}
+.content .content_register ._register button{
+	background-color: rgb(254, 215, 0);
+	border: none;
+	border-radius: 4px;
+	padding: 5px 30px;
+}
+
+/*Xác thực OTP*/
+.content .content_auth {
+	background-color: rgb(255, 255, 255);
+}
+.content .content_auth ._content {
+	margin: 20px 0 100px 0;
+	padding: 15px;
+	background-color: rgb(239, 239, 239);
+	border-radius: 5px;
+
+}
+.content .content_auth ._content ._logo img{
+	width: auto;
+}
+.content .content_auth ._content ._logo ._title {
+	margin-top: 15px;
+	background-color: rgb(239, 239, 239);
+}
+.content .content_auth .notify {
+	margin-top: 10px;
+}
+.content .content_auth .notify span {
+	color: rgb(0, 90, 254);
+}
+
+.content .content_auth ._form {
+	margin-top: 15px;
+}
+.content .content_auth ._register button{
+	background-color: rgb(254, 215, 0);
+	border: none;
+	border-radius: 4px;
+	padding: 5px 30px;
+}
+.content .content_auth ._register .gui_lai {
+	margin-left: 15px;
+}
+
+/*Nhập mật khẩu*/
+.content .content_nhap_mk {
+	background-color: rgb(255, 255, 255);
+}
+.content .content_nhap_mk ._content {
+	margin: 20px 0 100px 0;
+	padding: 15px;
+	background-color: rgb(239, 239, 239);
+	border-radius: 5px;
+
+}
+.content .content_nhap_mk ._content ._logo img{
+	width: auto;
+}
+.content .content_nhap_mk ._content ._logo ._title {
+	margin-top: 15px;
+	background-color: rgb(239, 239, 239);
+}
+
+.content .content_nhap_mk ._form {
+	margin-top: 15px;
+}
+.content .content_nhap_mk ._register button{
+	background-color: rgb(254, 215, 0);
+	border: none;
+	border-radius: 4px;
+	padding: 5px 30px;
+}
+.content .content_nhap_mk ._register .gui_lai {
+	margin-left: 15px;
+}
+
+/*Đăng nhập*/
+.content .content_login {
+	background-color: rgb(255, 255, 255);
+}
+.content .content_login ._content {
+	margin: 20px 0 100px 0;
+	padding: 15px;
+	background-color: rgb(239, 239, 239);
+	border-radius: 5px;
+
+}
+.content .content_login ._content ._logo img{
+	width: auto;
+}
+.content .content_login ._content ._logo ._title {
+	margin-top: 15px;
+	background-color: rgb(239, 239, 239);
+}
+.content .content_login ._login button{
+	background-color: rgb(254, 215, 0);
+	border: none;
+	border-radius: 4px;
+	padding: 5px 30px;
+}
+.content .content_login ._login {
+	margin: 0 -15px;
+}
+.content .content_login ._content .forgot_pass {
+	margin-top: 15px;
+}
+.content .content_login .content_right {
+	border-left: 1px solid;
+}
+.content .content_login .content_right .facebook button{
+	margin-top: 30px;
+	background-color: rgb(239, 239, 239);
+	color: rgb(71, 155, 248);
+	border: 1px solid rgb(71, 155, 248);
+	border-radius: 4px;
+	padding: 5px 30px;
+}
+.content .content_login .content_right .google button{
+	background-color: rgb(239, 239, 239);
+	border: 1px solid rgb(250, 71, 71);
+	color: rgb(250, 71, 71);
+	border-radius: 4px;
+	padding: 5px 33px;
+	margin-top: 15px;
+}
+
+/*maintain*/
+.content .maintain {
+	margin-top: 130px;
+}
+.content .maintain img {
+	width: auto;
+}
+.content .maintain ._title {
+	background-color: rgb(239, 239, 239);
+	border-bottom: 1px solid;
+	margin-top: 20px;
+}
+.content .maintain ._content {
+	background-color: rgb(239, 239, 239);
+	margin-top: 15px;
+}
+
+/*Thông tin tài khoản(có mã giảm giá)*/
+
+.content .content_infor_tk_ko_co_mgg ._title h3 {
+	padding: 15px;
+}
+.content .content_infor_tk_ko_co_mgg ._content {
+	padding-left: 15px;
+}
+
+.content .content_infor_tk_ko_co_mgg ._content button {
+	width: 240px;
+	border-radius: 5px;
+	border: none;
+	padding: 5px 0;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.content .content_infor_tk_ko_co_mgg ._content .tk {
+	padding-top: 20px;
+	padding-left: 15px;
+}
+.content .content_infor_tk_ko_co_mgg ._content ._infor {
+	padding-top: 20px;
+	border-top: 1px solid rgb(239, 239, 239);
+	padding-left: 15px;
+}
+.content .content_infor_tk_ko_co_mgg ._content .tong_diem {
+	padding-top: 20px;
+	border-top: 1px solid rgb(239, 239, 239);
+	padding-left: 15px;
+}
+.content .content_infor_tk_ko_co_mgg ._content .mgg_voucher{
+	padding-top: 20px;
+	border-top: 1px solid rgb(239, 239, 239);
+	padding-bottom: 40px;
+	padding-right: 15px;
+}
+
+/*Thông tin tài khoản*/
+.content .content_infor_tk {
+	background-color: rgb(255, 255, 255);
+	margin-top: 20px;
+}
 
 
 /*=========================footer========================*/
